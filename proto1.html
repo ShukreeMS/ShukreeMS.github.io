@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donate to Orphanage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+      .navbar-custom {
+        background-color: #5e9620 !important;
+      }
+      
+      .btn-custom {
+        background-color: #5e9620 !important;
+        border-color: #5e9620 !important;
+      }
+      
+      .btn-custom:hover {
+        background-color: #457713 !important;
+        border-color: #457713 !important;
+      }
+      
+      .footer-custom {
+        background-color: #5e9620 !important;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      .news-image {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <a class="navbar-brand" href="#">Donate to Orphanage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Donate Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <h1>Welcome to Donate to Orphanage</h1>
+      <p>We are a non-profit organization dedicated to providing support and care to orphans in our community. Please consider making a donation to help us continue our important work.</p>
+      <button class="btn btn-lg btn-custom">Donate Now</button>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Latest News</h2>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#"><img class="news-image" src="https://via.placeholder.com/100x100" alt="Community event"><span>Community Event Raises Over $10,000 for Orphanage</span></a></li>
+            <li class="list-group-item"><a href="#"><img class="news-image" src="https://via.placeholder.com/100x100" alt="Volunteers needed"><span>Volunteers Needed for Thanksgiving Dinner</span></a></li>
+            <li class="list-group-item"><a href="#"><img class="news-image" src="https://via.placeholder.com/100x100"alt="New program"><span>New Program Provides Mentoring for Orphans</span></a></li>
+</ul>
+</div>
+<div class="col-md-4">
+<h2>Quick Links</h2>
+<ul class="list-unstyled">
+<li><a href="#">How Your Donation Helps</a></li>
+<li><a href="#">Meet Our Team</a></li>
+<li><a href="#">Frequently Asked Questions</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-custom">
+  <p>&copy; 2023 Donate to Orphanage. All rights reserved.</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $(".btn-custom").click(function() {
+      window.location.href = "https://stripe-payments-demo.appspot.com/";
+    });
+  });
+</script>
+</body>
+</html>
